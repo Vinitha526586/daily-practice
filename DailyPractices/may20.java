@@ -160,7 +160,7 @@ for(int i=1;i<=10;i++){
 //Reverse numbers
 int num = 145678;
 int rev = 0;
-while(num != 0){
+while(num != 0){  
     int digit = num % 10;
     rev = rev * 10 + digit;
     num /= 10;
